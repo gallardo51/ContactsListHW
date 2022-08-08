@@ -15,14 +15,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSa-eH-X6i">
+                                <rect key="frame" x="16" y="135" width="288" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgd-Vw-wEj">
+                                <rect key="frame" x="16" y="191.5" width="288" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tSa-eH-X6i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DfN-gg-1bm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tSa-eH-X6i" secondAttribute="trailing" constant="16" id="IuO-Dl-xIh"/>
+                            <constraint firstItem="Vgd-Vw-wEj" firstAttribute="top" secondItem="tSa-eH-X6i" secondAttribute="bottom" constant="30" id="Jys-kH-186"/>
+                            <constraint firstItem="tSa-eH-X6i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="OPm-Mt-Dhj"/>
+                            <constraint firstItem="Vgd-Vw-wEj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sDH-BH-43C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vgd-Vw-wEj" secondAttribute="trailing" constant="16" id="yQ9-KL-wPZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nAv-tQ-7Dt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718" y="-298"/>
+            <point key="canvasLocation" x="716.25" y="-298.94366197183098"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="Nns-3T-vv8">
@@ -58,8 +80,8 @@
         <scene sceneID="1Ab-cO-zzU">
             <objects>
                 <navigationController id="sea-iN-Ssf" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rG4-Th-MdF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="rG4-Th-MdF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -102,11 +124,11 @@
             </objects>
             <point key="canvasLocation" x="-101.25" y="-297.88732394366195"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Personal List-->
         <scene sceneID="AS1-Tb-m6u">
             <objects>
                 <tabBarController modalPresentationStyle="fullScreen" id="kOt-Mt-9HJ" customClass="TabBarViewController" customModule="ContactsListHW" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="TiO-tL-UYX"/>
+                    <navigationItem key="navigationItem" title="Personal List" id="TiO-tL-UYX"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PhJ-9B-DCm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
