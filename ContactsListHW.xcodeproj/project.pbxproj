@@ -16,6 +16,8 @@
 		BA76398728A1662200A4C257 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76398628A1662200A4C257 /* DataManger.swift */; };
 		BA76398A28A184FD00A4C257 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76398928A184FD00A4C257 /* TabBarViewController.swift */; };
 		BA76398C28A1865300A4C257 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76398B28A1865300A4C257 /* ContactListViewController.swift */; };
+		BA76398E28A186D700A4C257 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76398D28A186D700A4C257 /* SectionTableViewController.swift */; };
+		BA76399028A1874600A4C257 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76398F28A1874600A4C257 /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BA76398628A1662200A4C257 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 		BA76398928A184FD00A4C257 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		BA76398B28A1865300A4C257 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		BA76398D28A186D700A4C257 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		BA76398F28A1874600A4C257 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				BA76398928A184FD00A4C257 /* TabBarViewController.swift */,
 				BA76398B28A1865300A4C257 /* ContactListViewController.swift */,
+				BA76398D28A186D700A4C257 /* SectionTableViewController.swift */,
+				BA76398F28A1874600A4C257 /* ContactDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 				BA76398428A165C400A4C257 /* Person.swift in Sources */,
 				BA76398728A1662200A4C257 /* DataManger.swift in Sources */,
 				BA76398A28A184FD00A4C257 /* TabBarViewController.swift in Sources */,
+				BA76398E28A186D700A4C257 /* SectionTableViewController.swift in Sources */,
 				BA76396D28A1643E00A4C257 /* SceneDelegate.swift in Sources */,
+				BA76399028A1874600A4C257 /* ContactDetailsViewController.swift in Sources */,
 				BA76398C28A1865300A4C257 /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
