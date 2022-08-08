@@ -347,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBC2FW8GZY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactsListHW/Info.plist;
+				INFOPLIST_FILE = ContactsListHW/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ContactsListHW;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -377,7 +377,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBC2FW8GZY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactsListHW/Info.plist;
+				INFOPLIST_FILE = ContactsListHW/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ContactsListHW;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
