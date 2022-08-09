@@ -41,6 +41,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nAv-tQ-7Dt"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="Vgd-Vw-wEj" id="dNK-RL-YFY"/>
+                        <outlet property="phoneLabel" destination="tSa-eH-X6i" id="R8A-hg-mVp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
